@@ -1,0 +1,21 @@
+{
+  "name": "deploy-tool",
+  "version": "1.0.0",
+  "description": "deployment tracker",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint ./ --fix",
+    "start": "pm2 startOrRestart ecosystem.json --update-env && pm2 logs",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "hapi": "^16.1.1",
+    "pm2": "^2.4.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint-config-evolent": "^1.5.0",
+    "webpack": "^2.3.2"
+  }
+}

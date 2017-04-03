@@ -1,0 +1,3 @@
+# deploy-tool
+
+yarn server
