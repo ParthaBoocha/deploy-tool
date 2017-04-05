@@ -10,4 +10,4 @@ artifacts/
 
 .logs
 
-.postgres
+.docker/postgres
