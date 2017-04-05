@@ -7,7 +7,8 @@
   "scripts": {
     "eslint": "eslint ./ --fix",
     "start": "pm2 startOrRestart ecosystem.json --update-env && pm2 logs",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "database": "docker-compose -f docker-postgres-compose.yml up"
   },
   "dependencies": {
     "babel-core": "^6.24.0",
