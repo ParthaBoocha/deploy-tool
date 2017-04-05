@@ -1,7 +1,6 @@
 'use strict';
 
-// import LoginService from '../services/login-service';
-const LoginService = require('../services/login-service');
+import LoginService from '../services/login-service';
 
 exports.register = (server, options, next) => {
   let routes = [

@@ -10,6 +10,10 @@
     "server": "nodemon server.js"
   },
   "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-register": "^6.24.0",
     "hapi": "^16.1.1",
     "pm2": "^2.4.3"
   },

@@ -1,5 +1,8 @@
 'use strict';
 
+require('babel-register');
+require('babel-polyfill');
+
 const Hapi = require('hapi');
 
 const server = new Hapi.Server();
